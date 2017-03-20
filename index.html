@@ -1,0 +1,28 @@
+<head>
+	<div>
+		<img src="avocado.gif">
+	</div>
+</head>
+<audio autoplay loop id="player">
+	<source src="avocado song.mp3" type="audio/mp3" />
+	<script>
+		var audio = document.currentScript.parentElement;
+		audio.volume = 0.3;
+	</script>
+</audio>
+
+<style>
+body {
+    background-color: #36393E;
+}
+
+div {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+	}
